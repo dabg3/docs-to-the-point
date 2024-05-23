@@ -15,11 +15,11 @@ garbage.
 
 ### External variables
 
-An _external_ variable is accessible globally by name, it persists after
-the function that set it have returned and it is initialized by default to 0.
+An _external_ variable is accessible globally by name, it is initialized by default to 0.
 
 * must be defined exactly once outside of any function to allocate space.
-* must be declared in each function that needs it. 
+* must be declared in each function (or file) that needs it. 
+
 ```C
 // file1.c
 
